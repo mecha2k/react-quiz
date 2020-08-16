@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: "Catamaran", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  /* background-color: aquamarine; */
+  background-image: url("../src/images/john-fowler.jpg");
+  background-size: cover;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  background-image: linear-gradient(180deg, white, lightgreen);
+  background-size: 100%;
+  background-clip: text;
+  --webkit-background-clip: text;
+  filter: drop-shadow(2px 2px #0085a3);
+  font-size: 70px;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div > p {
+  color: blue;
+}
+
+.score {
+  color: blue;
+  font-size: 2rem;
+}
+
+.score {
+  color: blue;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.start, .next {
+  cursor: pointer;
+  background: linear-gradient(180deg, #ffffff, #ffcc91);
+  border: 2px solid #d38558;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  height: 40px;
+  margin: 20px 0;
+  padding: 0 40px;
+}
+
+.start {
+  max-width: 200px;
+}
